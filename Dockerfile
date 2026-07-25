@@ -1,0 +1,7 @@
+FROM ghcr.io/leenhawk/gproxy:latest
+
+ENV GPROXY_HOST=0.0.0.0
+ENV GPROXY_PORT=7860
+ENV GPROXY_DATA_DIR=/data
+
+EXPOSE 7860
